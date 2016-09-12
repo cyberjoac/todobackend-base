@@ -1,7 +1,7 @@
- FROM ubuntu:trusty
+FROM ubuntu:trusty
 MAINTAINER Joachim Hagege <cyberjoac@gmail.com>
 
-#Prevent dpkg errors
+# Prevent dpkg errors
 ENV TERM=xterm-256color
 
 # Set mirrors to NZ
